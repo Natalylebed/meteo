@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="meteo.MainPage">
+
+    <FlyoutItem Title="Определить геолокацию" >
+        <Tab>
+            <ShellContent Title="определить x,y,z" >
+                <ContentPage Title="определить x,y,z" >
+                    <StackLayout>
+                        <Button x:Name="button1" Text="Определить координаты" FontSize="Subtitle" BackgroundColor="Gray" TextColor="White" Clicked="OnButtonClicked1"/>
+                        <Label Text="   "/>
+                    </StackLayout>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="показать место на карте">
+                <ContentPage Title="на карте">
+                    <StackLayout x:Name="stacketLayout1">
+                        
+                       
+                    </StackLayout>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Прогноз погоды">
+        <Tab Title="Прогноз погоды">
+            <ShellContent Title="На сегодня">
+                <ContentPage Title=" На сегодня2">
+                    <StackLayout>
+                        <Button x:Name="button2" Text="Показать погоду" FontSize="Subtitle" BackgroundColor="Gray" TextColor="White" Clicked="OnButtonClicked2"/>
+
+                    </StackLayout>
+                </ContentPage>
+            </ShellContent>
+
+            <ShellContent Title="на сегодня и завтра">
+                <ContentPage Title="на сегодня и завтра">
+                    <StackLayout>
+                        <Button x:Name="button3" Text="Показать погоду" FontSize="Subtitle" BackgroundColor="Gray" TextColor="White" Clicked="OnButtonClicked3"/>
+                    </StackLayout>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="на сегодня и 7 дней">
+                <ContentPage Title=" на сегодня и 7 дней">
+                    <StackLayout>
+                        <Button x:Name="button4" Text="Показать погоду" FontSize="Subtitle" BackgroundColor="Gray" TextColor="White" Clicked="OnButtonClicked4"/>
+                    </StackLayout>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+</Shell>
