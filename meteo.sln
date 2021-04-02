@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meteo.Android", "meteo\meteo.Android\meteo.Android.csproj", "{05314D9A-3BEC-4539-8FB5-625021F8A1A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meteo", "meteo\meteo\meteo.csproj", "{2E61AD60-58BD-4AEB-834F-355CC6A00952}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "meteo", "meteo\meteo\meteo.csproj", "{2E61AD60-58BD-4AEB-834F-355CC6A00952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "str", "str", "{500CE94A-B92F-4517-B0D4-E2B154445E87}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Oazis\structure.md = E:\Oazis\structure.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
